@@ -2,7 +2,7 @@
 
 # Finetuning
 This is a basic flow for finetuning applied to token classification.
-<img src="TokenClassification_01.png" width="750px" />
+<img src="Tokenizer Classification Imgs/TokenClassification_01.png" width="750px" />
 # Label Mapping
 We need to define a numerical dictionary to classify our tokens.
 Depending on the problem we would need to choose a good labeling criteria.
@@ -61,7 +61,7 @@ tokenized_inputs = tokenizer(
 In this step, we assign a label to each character token.
 This will stablish the pattern used for the training.
 
-<img src="TokenClassification_02.png" width="250px" />
+<img src="Tokenizer Classification Imgs/TokenClassification_02.png" width="250px" />
 
 ```python
 #First we set the lengt
